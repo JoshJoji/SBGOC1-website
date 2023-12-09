@@ -1,0 +1,163 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	 background-image: linear-gradient(
+		to bottom,
+		#b31b1b 0%,
+		#b31b1b 50%,
+		#e9692c 50%,
+		#e9692c 100%
+		
+
+	);
+	height: 100vh;
+	
+ }
+nav {
+	width: 100%
+	height:60px;
+	background-color:#fff;
+	
+}
+.photo1{
+border-width: 10px;
+border-style: solid;
+border-color: #a52a2a;
+}
+
+.photo2{
+border-width: 10px;
+border-style: solid;
+border-color: #a52a2a;
+}
+
+.photo3{
+border-width: 10px;
+border-style: solid;
+border-color: #a52a2a;
+}
+
+nav p{
+	font-family: arial;
+	color: #222
+	font-size; 24px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px;
+}
+nav ul{
+	float: left;
+}
+nav ul li{
+	float:left;
+	list-style: none;
+	position: relative;
+	
+}
+
+nav ul li a {
+	display: block;
+	font-family:arial;
+	color: #222
+	font-size; 24px;
+	padding: 22px 14px;
+	text-decoration: none;
+}
+nav ul li ul {
+	display: none;
+	position: absolute;
+	background-color:#fff;
+	padding: 10px;
+	border-radius: 0px 0px 4px 4px;
+	
+}
+nav ul li:hover ul {
+	display: block;
+	
+}
+nav ul li ul li a {
+	width: 180px;
+	border-radius:4px;
+} 
+nav ul li ul li a {
+	padding: 8px 14px;
+}
+nav ul li ul li a:hover{
+	background-color: #f3f3f3;
+}
+<!-Visit Us Images CSS-->
+
+.gallery{
+	display: flex;
+	justify-content: space around;
+	flex-wrap: wrap;
+	margin: 15px 0;
+	
+}
+.gallery img{
+	flex-wrap: wrap;
+	width: 360px;
+	height: 300px;
+	margin: 5px 0;
+}
+	
+
+nav p{
+	font-family: arial;
+	color: #222
+	font-size: 24px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px;
+}
+nav ul{
+	float: left;
+}
+nav ul li{
+	float:left;
+	list-style: none;
+	position: relative;
+	
+}
+
+nav ul li a {
+	display: block;
+	font-family:arial;
+	color: #222
+	font-size; 24px;
+	padding: 22px 14px;
+	text-decoration: none;
+}
+nav ul li ul {
+	display: none;
+	position: absolute;
+	background-color:#fff;
+	padding: 10px;
+	border-radius: 0px 0px 4px 4px;
+	
+}
+nav ul li:hover ul {
+	display: block;
+	
+}
+nav ul li ul li a {
+	width: 180px;
+	border-radius:4px;
+} 
+nav ul li ul li a {
+	padding: 8px 14px;
+}
+nav ul li ul li a:hover{
+	background-color: #f3f3f3;
+}
+
+#parish{
+	border: 20px solid brown;
+	padding: 5px;
+}
+
+
+
+
